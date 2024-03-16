@@ -23,7 +23,9 @@ imageEl.src =
   'https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg';
 imageEl.alt = 'valais-alpine-mountains-glacier';
 imageEl.width = 320;
-// console.log('imageEl', imageEl);
+// imageEl.setAttribute('data-action', 'raketa');
+imageEl.dataset.action = 'raceta';
+console.log('imageEl', imageEl);
 
 // document.body.appendChild(imageEl);
 
@@ -49,4 +51,4 @@ navItemEl.appendChild(navLinkEl);
 const navEl = document.querySelector('.site-nav');
 
 // navEl.appendChild(navItemEl);
-navEl.insertBefore(navItemEl, navEl.firstElementChild);
+navEl.insertBefore(navItemEl, navEl.lastElementChild);

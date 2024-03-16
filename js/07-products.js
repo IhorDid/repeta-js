@@ -19,6 +19,8 @@ import products from './data/proucts.js';
  * Пишем функцию для создания карточки продукта
  */
 
+// todo 5
+// !      ПИШЕМ ФУНКЦИЮ СОЗДАНИЯ КАЖДОГО ЕЛЕМЕНТА МАССИВА
 const productsContainerEl = document.querySelector('.js-products');
 
 const makeProductCard = ({ name, description, price }) => {
@@ -41,7 +43,7 @@ const makeProductCard = ({ name, description, price }) => {
 
   return productEl;
 };
-
+// !             МЕПАЕМ КАЖДУЮ ФУНКЦИЮ
 const elements = products.map(makeProductCard);
 
 console.log(elements);

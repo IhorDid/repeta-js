@@ -35,3 +35,13 @@ heroTitleEl.textContent = 'Я сладкий пирожочек!';
 const actions = document.querySelectorAll('.js-actions button');
 console.log(actions);
 console.log(actions[2].dataset.action);
+
+// TODO 1.
+// ! ИЗМЕНЯЕМ ЗНАЧЕНИЕ ИНПУТА ПО КЛИКУ
+
+//   magicBtn.addEventListener('click', () => {
+//   const inputEl = document.querySelector('.js-input');
+//   inputEl.value = 'qwerty';
+// });
+
+// Работает все четко))

@@ -11,7 +11,8 @@ const colorPickerOptions = [
 ];
 
 const colorPickerContainerEl = document.querySelector('.js-color-picker');
-
+// Todo 2
+//                     ! СОЗДАЕМ ПЕРЕМЕННУЮ В КОТОРОЮ ЗАПИСЫВАЕМ МЕТОД map
 // const elements = colorPickerOptions.map(option => {
 //   const buttonEl = document.createElement('button');
 //   buttonEl.type = 'button';
@@ -25,7 +26,8 @@ const colorPickerContainerEl = document.querySelector('.js-color-picker');
 // console.log(elements);
 
 /*
- * Пишем функцию для создания разметки колорпикера
+Todo 3  
+ !                 СОЗДАЕМ ФУНКЦИЮ КОТОРАЯ БУДЕТ MAP-ить  масив обэктов
  */
 const makeColorPickerOptions = options => {
   return options.map(option => {
